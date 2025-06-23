@@ -10,7 +10,7 @@
         /* Custom font for a clean look, if not already inherited */
         body {
             font-family: 'Inter', sans-serif;
-            background-color: #003399; /* Updated background color to the specified blue */
+            background-color: black; /* Changed background color to white */
             display: flex; /* Use flexbox to center content */
             justify-content: center; /* Center horizontally */
             align-items: center; /* Center vertically */
@@ -24,19 +24,22 @@
         .text-project-yellow {
             color: #FFCC00;
         }
+        .bg-project-blue { /* New class for the blue box background */
+            background-color: #003399;
+        }
     </style>
 </head>
 <body>
     <!-- Main container for centering the content -->
     <div class="flex items-center justify-center min-h-screen w-full">
         <!-- Central box component -->
-        <div class="bg-gray-100 p-8 md:p-12 lg:p-16 rounded-xl shadow-lg text-center max-w-sm mx-4 sm:max-w-md md:max-w-lg lg:max-w-xl w-full">
+        <div class="bg-project-blue p-8 md:p-12 lg:p-16 rounded-xl shadow-lg text-center max-w-sm mx-4 sm:max-w-md md:max-w-lg lg:max-w-xl w-full">
             <!-- Project Name -->
-            <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-2 text-project-blue rounded-md p-2">
+            <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-2 text-project-yellow rounded-md p-2">
                 EUNCF
             </h1>
             <!-- Tagline -->
-            <p class="text-lg sm:text-xl md:text-2xl font-medium text-project-blue rounded-md p-2">
+            <p class="text-project-yellowtext-lg sm:text-xl md:text-2xl font-medium rounded-md p-2">
                 Coming soon
             </p>
         </div>
