@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EUNCF</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom font for a clean look, if not already inherited */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #003399; /* Updated background color to the specified blue */
+            display: flex; /* Use flexbox to center content */
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+            min-height: 100vh; /* Ensure it takes full viewport height */
+            margin: 0;
+        }
+        /* Custom colors for Tailwind JIT compilation */
+        .text-project-blue {
+            color: #003399;
+        }
+        .text-project-yellow {
+            color: #FFCC00;
+        }
+    </style>
+</head>
+<body>
+    <!-- Main container for centering the content -->
+    <div class="flex items-center justify-center min-h-screen w-full">
+        <!-- Central box component -->
+        <div class="bg-gray-100 p-8 md:p-12 lg:p-16 rounded-xl shadow-lg text-center max-w-sm mx-4 sm:max-w-md md:max-w-lg lg:max-w-xl w-full">
+            <!-- Project Name -->
+            <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-2 text-project-blue rounded-md p-2">
+                EUNCF
+            </h1>
+            <!-- Tagline -->
+            <p class="text-lg sm:text-xl md:text-2xl font-medium text-project-blue rounded-md p-2">
+                Coming soon
+            </p>
+        </div>
+    </div>
+</body>
+</html>
